@@ -7,3 +7,6 @@ body {
 .bg-light {
     background-color: #d6d6d6;
 }
+.logo {
+    border-radius: 50px;
+}
