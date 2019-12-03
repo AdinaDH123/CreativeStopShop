@@ -204,3 +204,8 @@ img {
     font-weight: bold;
 }
 master
+
+.img {
+	border-radius: 50%;
+  }
+  
