@@ -1,6 +1,9 @@
 .container {
     width:100%;
     vertical-align: middle;
+    padding-top: 50px;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 
 body {
@@ -10,15 +13,5 @@ body {
 .bg-light {
     background-color: #d6d6d6;
 }
-.logo {
-    border-radius: 50%;
-}
 
-.col1 {
-    vertical-align: middle;
-}
-
-.img-wrap {
-    width: 100%
-}
 
