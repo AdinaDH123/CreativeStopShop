@@ -2,6 +2,7 @@
     width:100%;
     vertical-align: middle;
 }
+
 body {
     background-color: #d6d6d6;
     width:100%;
@@ -12,3 +13,12 @@ body {
 .logo {
     border-radius: 50%;
 }
+
+.col1 {
+    vertical-align: middle;
+}
+
+.img-wrap {
+    width: 100%
+}
+
