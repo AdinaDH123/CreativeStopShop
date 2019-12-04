@@ -151,6 +151,7 @@ Home-page
 	padding: 1.4em;
 }
 
+
 .card-content h2 {
 	margin-top: 0;
 	margin-bottom: .5em;
@@ -203,7 +204,59 @@ img {
     text-align: center;
     font-weight: bold;
 }
-<<<<<<< Updated upstream
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}
+
+/* Flexbox stuff */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.card {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    margin: 1rem .25em;
+}
+
+@media screen and (min-width: 40em) {
+    .card {
+       max-width: calc(50% -  1em);
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .card {
+        max-width: calc(25% - 1em);
+    }
+}
+
+.centered {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 52em;
+    }
+}
+img {
+    width: 100%;
+}
+.text {
+    text-align: center;
+    font-weight: bold;
+}
 master
 
 .col5:img {
@@ -391,6 +444,7 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color:#f2c548;
@@ -419,5 +473,7 @@ h3 {
 .thanks {
     text-align: center;
 }
-=======
->>>>>>> Stashed changes
+
+
+
+
